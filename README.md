@@ -5,9 +5,6 @@
 ## Click [here](https://www.youtube.com/playlist?list=PLaclCVvd8mtfOWUS1UDCcrjGZFiAXYVPQ) to watch demo video
 </center>
 
-Github Link:
-
-[https://github.ncsu.edu/lzhang45/ECE517_project1](https://github.ncsu.edu/lzhang45/ECE517_project1)
 
 --
 
