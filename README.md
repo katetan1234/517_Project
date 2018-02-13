@@ -2,7 +2,7 @@
 
 --
 <center>
-##Click [here](https://www.youtube.com/playlist?list=PLaclCVvd8mtfOWUS1UDCcrjGZFiAXYVPQ) to watch demo video
+## Click [here](https://www.youtube.com/playlist?list=PLaclCVvd8mtfOWUS1UDCcrjGZFiAXYVPQ) to watch demo video
 </center>
 
 Github Link:
@@ -19,7 +19,7 @@ Admin Account>>> Email: amajumd@ncsu.edu Password: anubhab123#
 __Tips: Because we list root account above, so that anyone can delete admin or even modify password for root user. If you find any bugs about the two users above, please contact with lzhang45@ncsu.edu, instead of just thinking the website has bugs and giving us a low score.__
 
 
-##Test procedure:
+## Test procedure:
 
 Just go to [https://librarybooking.herokuapp.com](https://librarybooking.herokuapp.com), our website is very user-friendly, basically you can try to use every kind of feature shown in Question Page.
 
