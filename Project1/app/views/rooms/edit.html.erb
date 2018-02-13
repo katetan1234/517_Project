@@ -1,0 +1,22 @@
+<h1>Edit Room</h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@room) do |field| %>
+        <%= field.label :room_id %>
+        <%= field.text_field :room_id %>
+
+        <%= field.label :building %>
+        <%= field.select  :building, ["James B. Hunt", "D. H. Hill"] %>
+
+        <%= field.label :size %>
+        <%= field.select  :size, [4, 6, 12] %>
+
+
+        <%= field.submit "Update room", class: "btn btn-primary" %>
+    <% end %>
+
+
+  </div>
+</div>
+
+<%= link_to 'Return to room list', rooms_url %></table>

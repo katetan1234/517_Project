@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Rooms</h1>
+
+  <ul class="list-group">
+
+
+    <% @rooms.each do |room| %>
+        <li class="list-group-item">
+          <%= room.room_id %>&nbsp&nbsp&nbsp&nbsp
+          <%= room.building %>&nbsp&nbsp&nbsp&nbsp
+          <%= link_to 'Details', room %>&nbsp&nbsp&nbsp&nbsp
+          <% if @user.Admin%>
+            <%= link_to 'Edit', edit_room_path(room) %>&nbsp&nbsp&nbsp&nbsp
+            <%= link_to 'Delete', room, method: :delete, data: { confirm: 'Are you sure?' } %>&nbsp&nbsp&nbsp&nbsp
+          <%end%>
+          <%= link_to 'View_room_history', view_room_history_path(room)%>
+      </li>
+    <% end %>
+
+
+  </ul>
+
+<% if @user.Admin%>
+    <%= link_to 'Return to manage rooms', admin_manage_room_url %></table>
+<%else%>
+    <%= link_to 'Return to manage rooms', user_manage_room_url %></table>
+<%end%>
