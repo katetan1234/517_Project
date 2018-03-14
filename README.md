@@ -6,14 +6,7 @@
 </center>
 
 
---
 
-Root Account>>> Email: root@ncsu.edu Password: root@123
-
-
-Admin Account>>> Email: amajumd@ncsu.edu Password: anubhab123#
-
-__Tips: Because we list root account above, so that anyone can delete admin or even modify password for root user. If you find any bugs about the two users above, please contact with lzhang45@ncsu.edu, instead of just thinking the website has bugs and giving us a low score.__
 
 
 ## Test procedure:
